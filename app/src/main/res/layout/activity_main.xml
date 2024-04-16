@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="Match Pairs Memory Game"
+        android:textAlignment="center"
+        android:textSize="29dp" />
+
+    <ImageView
+        android:id="@+id/imgButPlay"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/button_play" />
+
+    <ImageView
+        android:id="@+id/imgButRank"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/button_ranking" />
+
+    <ImageView
+        android:id="@+id/imgButRecord"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/button_records" />
+
+    <ImageView
+        android:id="@+id/imgButClose"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/button_close" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <EditText
+        android:id="@+id/edPlayerName"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your Name"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Spinner
+        android:id="@+id/spStyle"
+        android:layout_width="178dp"
+        android:layout_height="54dp"
+        android:textSize="20sp" />
+
+    <FrameLayout
+        android:id="@+id/flMainPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

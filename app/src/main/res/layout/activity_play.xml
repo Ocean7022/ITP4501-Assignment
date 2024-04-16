@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearPlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".PlayActivity">
+
+    <Space
+        android:id="@+id/sp1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <TextView
+        android:id="@+id/tvMove"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Moves : 0"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="556dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="horizontal">
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/layoutLeft"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cardBack0"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="15dp"
+                    android:src="@drawable/card_back" />
+
+                <ImageView
+                    android:id="@+id/cardFront0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="5dp"
+                    app:srcCompat="@drawable/card_kankore01" />
+            </FrameLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cardBack1"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="15dp"
+                    android:src="@drawable/card_back" />
+
+                <ImageView
+                    android:id="@+id/cardFront1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="5dp"
+                    app:srcCompat="@drawable/card_kankore01" />
+            </FrameLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cardBack2"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="15dp"
+                    android:src="@drawable/card_back" />
+
+                <ImageView
+                    android:id="@+id/cardFront2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="5dp"
+                    app:srcCompat="@drawable/card_kankore01" />
+            </FrameLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cardBack3"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="15dp"
+                    android:src="@drawable/card_back" />
+
+                <ImageView
+                    android:id="@+id/cardFront3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="5dp"
+                    app:srcCompat="@drawable/card_kankore01" />
+            </FrameLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/layoutRight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cardBack4"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="15dp"
+                    android:src="@drawable/card_back" />
+
+                <ImageView
+                    android:id="@+id/cardFront4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="5dp"
+                    app:srcCompat="@drawable/card_kankore01" />
+            </FrameLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cardBack5"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="15dp"
+                    android:src="@drawable/card_back" />
+
+                <ImageView
+                    android:id="@+id/cardFront5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="5dp"
+                    app:srcCompat="@drawable/card_kankore01" />
+            </FrameLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cardBack6"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="15dp"
+                    android:src="@drawable/card_back" />
+
+                <ImageView
+                    android:id="@+id/cardFront6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="5dp"
+                    app:srcCompat="@drawable/card_kankore01" />
+            </FrameLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cardBack7"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="15dp"
+                    android:src="@drawable/card_back" />
+
+                <ImageView
+                    android:id="@+id/cardFront7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="115dp"
+                    android:alpha="0"
+                    android:elevation="5dp"
+                    app:srcCompat="@drawable/card_kankore01" />
+            </FrameLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buRestart"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:insetTop="10dp"
+        android:insetBottom="10dp"
+        android:onClick="continueGame"
+        android:text="Continue"
+        android:textSize="20sp" />
+
+</LinearLayout>
